@@ -33,7 +33,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: -10px
 }
+
+
+.horizontal {
+  display: flex;
+}
+
 
 .close-button {
   background: #eee;
@@ -46,6 +56,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.header {
+  width:380px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+}
+
+.vertical {
+  margin-left: 59.6562px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -63,4 +89,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
